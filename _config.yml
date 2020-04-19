@@ -12,21 +12,21 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Siddharth Verma
+  tagline: Likes AI, Photography and Music
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: sidv1993
+    github:  sidv1993
+    linkedIn: in/sidv1993
     rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: sidv1993
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: sid.art.v
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
