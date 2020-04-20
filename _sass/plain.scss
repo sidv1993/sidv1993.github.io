@@ -96,7 +96,8 @@ main {
     }
     .tagline {
       font-size: 15px;
-      margin-top: 17px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       color: #aaa;
       white-space: pre-wrap;
       line-height: normal;
@@ -272,6 +273,22 @@ main {
   height: 20px;
 }
 
+.social .github svg:hover {
+    color: #AD5C51;
+}
+
+.social .linkedin svg:hover {
+    color: #007BB6;
+}
+
 .social .facebook svg:hover {
-    color: #FFFFFF;
+    color: #3B5998;
+}
+
+.social .instagram svg:hover {
+    color: #8A3AB9;
+}
+
+.social .twitter svg:hover {
+    color: #00ACED;
 }
