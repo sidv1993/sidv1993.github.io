@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Siddharth Verma
-  tagline: Likes AI, Photography and Music
+  tagline: Unsupervised Learner
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
@@ -22,11 +22,11 @@ plainwhite:
     twitter: sidv1993
     github:  sidv1993
     linkedIn: in/sidv1993
-    rss: rss
-    # dribbble: jekyll
-    facebook: sidv1993
-    # flickr:   jekyll
+    facebook: sid.art.v93
     instagram: sid.art.v
+    # rss: rss
+    # flickr:   jekyll
+    # dribbble: jekyll
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
@@ -45,11 +45,12 @@ plainwhite:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+- about.md
 
 # Build settings
 theme: plainwhite
+remote_theme: thelehhman/plainwhite-jekyll
 
 plugins:
   - jekyll-seo-tag

@@ -11,29 +11,82 @@
           <a href="/">{{ site.plainwhite.name }}</a>
         </h2>
         <p class="tagline">{{ site.plainwhite.tagline }}</p>
-        <ul class="social">
-          {%- if site.plainwhite.social_links.github -%}
+
+        <div class="social" style="margin-left: -38px;margin-top: -15px">
+        <ul>
+
+            {%- if site.plainwhite.social_links.github -%}
+            <li class="github">
             <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
-              <li>
-                <i class="icon-github-circled"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
-              <li>
-                <i class="icon-linkedin-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.twitter -%}
-            <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
-              <li>
-                <i class="icon-twitter-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-        </ul>
+            {% include social/github.svg %}</li></a>
+            {%- endif -%}
+
+            {%- if site.plainwhite.social_links.linkedIn -%}
+            <li class="linkedin">
+            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" target="_blank">
+            {% include social/linkedin.svg %}</a></li>
+            {%- endif -%}
+
+            {%- if site.plainwhite.social_links.facebook -%}
+            <li class="facebook">
+            <a href="https://www.facebook.com/{{ site.plainwhite.social_links.facebook }}" target="_blank">
+            {% include social/facebook.svg %}</a></li>
+            {%- endif -%}
+
+            {%- if site.plainwhite.social_links.instagram -%}
+            <li class="instagram">
+            <a href="https://www.instagram.com/{{ site.plainwhite.social_links.instagram }}" target="_blank">
+            {% include social/instagram.svg %}</a></li>
+            {%- endif -%}
+
+            {%- if site.plainwhite.social_links.twitter -%}
+            <li class="twitter">
+            <a href="https://www.twitter.com/{{ site.plainwhite.social_links.twitter }}" target="_blank">
+            {% include social/twitter.svg %}</a></li>
+            {%- endif -%}
+  </ul>
+</div>
+
+          
+        
+
+<!--           <ul class="social">
+              {%- if site.plainwhite.social_links.linkedIn -%}
+              <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+                <li>
+                  {% include social/linkedin.svg %}
+                </li>
+              </a>
+              {%- endif -%}
+              {%- if site.plainwhite.social_links.github -%}
+              <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
+                <li>
+                  {% include social/github.svg %}
+                </li>
+              </a>
+              {%- endif -%}
+              {%- if site.plainwhite.social_links.facebook -%}
+              <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}">
+                <li>
+                  {% include social/facebook.svg %}
+                </li>
+              </a>
+              {%- endif -%}
+              {%- if site.plainwhite.social_links.instagram -%}
+              <a href="https://instagram.com/{{ site.plainwhite.social_links.instagram }}">
+                <li>
+                  {% include social/instagram.svg %}
+                </li>
+              </a>
+              {%- endif -%}
+              {%- if site.plainwhite.social_links.twitter -%}
+              <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
+                <li>
+                  {% include social/twitter.svg %}
+                </li>
+              </a>
+              {%- endif -%}
+          </ul> -->
 
         {%- if site.plainwhite.navigation -%}
           <nav class="navigation">
